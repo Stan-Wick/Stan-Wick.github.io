@@ -42,11 +42,11 @@ body * {
     -moz-transform-style: preserve-3d;
 }
 .top_div {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    height: 101.03px;
     width: 100%;
+    height: 101px;
+    top: 0px;
+    position: fixed;
+    left: 0%;
 }
 .header_img {
     position: absolute;
@@ -140,6 +140,7 @@ a:hover {
     height: 100px;
     left: 0px;
     top: 1400px;
+    padding: 0px;
 }
 .help_txt_header {
     position: absolute;
@@ -187,6 +188,15 @@ a:hover {
     background: -webkit-linear-gradient(top, rgb(3, 28, 51) 0%, rgb(0, 0, 16) 100%);
     background: -moz-linear-gradient(top, rgb(3, 28, 51) 0%, rgb(0, 0, 16) 100%);
     background: linear-gradient(to bottom, rgb(3, 28, 51) 0%, rgb(0, 0, 16) 100%);
+}
+.stan_logo {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    width: 103.1px;
+    height: 35.06px;
+    left: 31.96px;
+    top: 33px;
 }</style>
   <link href="https://fonts.googleapis.com/css?family=Roboto:regular|Montserrat:regular" rel="stylesheet" type="text/css">
 </head>
@@ -204,7 +214,9 @@ a:hover {
     <p class="help_txt_p">There's no help at this time.</p>
     <h1 class="help_txt_header">SORRY,</h1></div>
   <div class="top_div">
-    <span class="about_link"><a href="#about">ABOUT</a></span><span class="contact_link"><a href="#contact">CONTACT</a></span><span class="help_link"><a href="#help">HELP</a></span></div>
+    <span class="about_link"><a href="#about">ABOUT</a></span><span class="help_link"><a href="#help">HELP</a></span><span class="contact_link"><a href="#contact">CONTACT</a></span>
+    <img src="stan_logo.png" id="stan_logo" class="stan_logo" alt="stan_logo">
+  </div>
 
 
 </body></html>
