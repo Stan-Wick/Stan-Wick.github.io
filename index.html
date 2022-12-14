@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="emblem_favicon.ico" type="image/x-icon" />
   <title>Welcome</title>
-  
   <style id="gwd-text-style">p {
     margin: 0px;
 }
@@ -56,7 +55,7 @@ body * {
     width: 100.42%;
     height: 101px;
 }
-.about_txt {
+.about_link {
     position: absolute;
     background-image: none;
     background-color: transparent;
@@ -69,7 +68,7 @@ body * {
     font-weight: normal;
     font-family: Roboto;
 }
-.contact_txt {
+.contact_link {
     position: absolute;
     background-image: none;
     background-color: transparent;
@@ -82,7 +81,7 @@ body * {
     font-weight: normal;
     font-family: Roboto;
 }
-.help_txt {
+.help_link {
     position: absolute;
     background-image: none;
     background-color: transparent;
@@ -102,19 +101,21 @@ body * {
     height: 162.667px;
     width: 100%;
 }
-.hello_txt {
+.hello_txt_header {
     color: rgb(255, 255, 255);
     position: absolute;
     font-family: Georgia;
     top: 36px;
-    left: 64px;
+    left: 32px;
 }
 .full_about {
     color: rgb(255, 255, 255);
     position: absolute;
-    font-family: Georgia;
     top: 88px;
-    left: 64px;
+    left: 32px;
+    padding: 8px;
+    margin: 0px;
+    font-family: Montserrat;
 }
 a {
     color: rgb(225, 232, 251);
@@ -131,72 +132,79 @@ a:hover {
     left: 0px;
     width: 100%;
     height: 128px;
-    top: 670px;
+    top: 770px;
 }
 .help_div {
     position: absolute;
-    left: 0px;
     width: 100%;
     height: 100px;
-    top: 1200px;
+    left: 0px;
+    top: 1400px;
 }
-.gwd-h1-49np {
+.help_txt_header {
     position: absolute;
     font-size: 32px;
     font-weight: bold;
     color: rgb(255, 255, 255);
     font-family: Georgia;
-    left: 64px;
-    top: 17px;
+    left: 32px;
+    top: 18px;
 }
-.gwd-p-1dts {
+.help_txt_p {
     position: absolute;
-    font-family: Georgia;
     color: rgb(255, 255, 255);
-    left: 64px;
-    top: 63px;
+    font-family: Montserrat;
+    padding: 8px;
+    left: 32px;
+    top: 58px;
 }
-.gwd-h1-5uqx {
+.contact_txt_header {
     position: absolute;
     font-size: 32px;
     font-weight: bold;
     color: rgb(255, 255, 255);
     font-family: Georgia;
-    left: 64px;
-    top: 30px;
+    margin: 0px;
+    padding: 0px;
+    left: 32px;
+    top: 31px;
+    white-space: nowrap;
 }
-.gwd-p-12nh {
+.contact_txt_p {
     position: absolute;
-    font-family: Georgia;
     color: rgb(255, 255, 255);
-    left: 64px;
+    left: 32px;
     top: 78px;
+    font-family: Montserrat;
+    padding: 8px;
 }
 .page {
     position: absolute;
     left: 0px;
     top: 0px;
-    height: 1365px;
     width: 100%;
-}
-.gwd-new-class-1ym3 {}</style>
+    height: 1500px;
+    background: -webkit-linear-gradient(top, rgb(3, 28, 51) 0%, rgb(0, 0, 16) 100%);
+    background: -moz-linear-gradient(top, rgb(3, 28, 51) 0%, rgb(0, 0, 16) 100%);
+    background: linear-gradient(to bottom, rgb(3, 28, 51) 0%, rgb(0, 0, 16) 100%);
+}</style>
   <link href="https://fonts.googleapis.com/css?family=Roboto:regular|Montserrat:regular" rel="stylesheet" type="text/css">
 </head>
 
 <body class="htmlNoPages">
-  <img src="page.png" id="page" class="page">
+  <div class="page" id="page"></div>
   <div class="about_div" id="about">
     <p class="full_about">I'm Stan. How are things going?<br class="gwd-br-ib69">You're welcome to my site</p>
-    <h1 class="hello_txt">Hello!</h1></div>
+    <h1 class="hello_txt_header">Hello!</h1></div>
   <div class="contact_div" id="contact">
-    <h1 class="gwd-h1-5uqx">Contact me at:</h1>
-    <p class="gwd-p-12nh">I could've sworn my contact info was in here somewhere...</p>
+    <h1 class="contact_txt_header">Contact me at:</h1>
+    <p class="contact_txt_p">I could've sworn my contact info was in here somewhere...</p>
   </div>
   <div class="help_div" id="help">
-    <p class="gwd-p-1dts">There's no help at this time.</p>
-    <h1 class="gwd-h1-49np">SORRY,</h1></div>
+    <p class="help_txt_p">There's no help at this time.</p>
+    <h1 class="help_txt_header">SORRY,</h1></div>
   <div class="top_div">
-    <span class="about_txt"><a href="#about">ABOUT</a></span><span class="contact_txt"><a href="#contact">CONTACT</a></span><span class="help_txt"><a href="#help">HELP</a></span></div>
+    <span class="about_link"><a href="#about">ABOUT</a></span><span class="contact_link"><a href="#contact">CONTACT</a></span><span class="help_link"><a href="#help">HELP</a></span></div>
 
 
 </body></html>
