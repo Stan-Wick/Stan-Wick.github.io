@@ -1,0 +1,64 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: white;
+
+    /* background-image: linear-gradient(rgb(0, 0, 32),rgb(0, 0, 4)); */
+    background-color: #0a0a23;
+    background-image: radial-gradient(at 20% 20%, #0a0a23, transparent 50%),
+    radial-gradient(at 80% 20%, #1a1a40, transparent 50%),
+    radial-gradient(at 50% 50%, #2a2a5c, transparent 50%),
+    radial-gradient(at 20% 80%, #3a3a79, transparent 50%),
+    radial-gradient(at 80% 80%, #4a4a96, transparent 50%),
+    radial-gradient(at 50% 20%, #5a5ab3, transparent 50%),
+    radial-gradient(at 20% 50%, #6a6ad0, transparent 50%);
+    
+    
+}
+
+main{
+    margin: auto;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 32);
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    margin: auto;
+    width: 256px;
+}
+
+div > *{
+    border: 0;
+    border-radius: 8px;
+    padding: 0 0 0 0;
+    width: auto;
+    margin-bottom: 8px;
+}
+
+div input{
+    border: 0;
+    height: 32px;
+    padding-left: 8px;
+}
+
+div button{
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    height: 32px;
+    margin-top: 32px;
+    background-color: #7fb8ff;
+}
+
