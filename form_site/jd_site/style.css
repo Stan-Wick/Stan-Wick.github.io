@@ -58,7 +58,7 @@ body{
     /* background-image: url(/images/1.png);
     background-size: cover;
     background-position: center; */
-    background: url(/images/1.png) center/cover;
+    background: url(./images/1.png) center/cover;
     min-height: 512px;
     margin: 0%;
     padding: 32px;
@@ -83,7 +83,7 @@ body{
 }
 
 .hero-2{
-    background: url(/images/2.png) center/cover;
+    background: url(./images/2.png) center/cover;
     min-height: 512px;
     display: flex;
 }
@@ -125,15 +125,15 @@ body{
 }
 
 .feature-card-1{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(/images/3.png) center/cover;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(./images/3.png) center/cover;
 }
 
 .feature-card-2{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(/images/4.png) center/cover;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(./images/4.png) center/cover;
 }
 
 .feature-card-3{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(/images/5.png) center/cover;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(./images/5.png) center/cover;
 }
 
 .feature-text{
