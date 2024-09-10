@@ -81,7 +81,7 @@ footer{
     /* background-image: url(/images/1.png);
     background-size: cover;
     background-position: center; */
-    background: url(/images/1.png) center/cover;
+    background: url(./images/1.png) center/cover;
     min-height: 512px;
     margin: 0%;
     padding: 32px;
