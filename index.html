@@ -1,223 +1,44 @@
 <!DOCTYPE html>
-<html><head>
-  <meta charset="utf-8">
-  <meta name="description" content="Stan Wick's Github site">
-  <meta name="keywords" content="Stan Wick, Stan, Wick, Github">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="emblem_favicon.ico" type="image/x-icon" />
-  <title>Welcome</title>
-  <style id="gwd-text-style">p {
-    margin: 0px;
-}
-h1 {
-    margin: 0px;
-}
-h2 {
-    margin: 0px;
-}
-h3 {
-    margin: 0px;
-}</style>
-  <style>html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-}
-body {
-    background-color: transparent;
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    perspective: 1400px;
-    -webkit-perspective: 1400px;
-    -moz-perspective: 1400px;
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-}
-body * {
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-}
-.top_div {
-    width: 100%;
-    height: 101px;
-    top: 0px;
-    position: fixed;
-    left: 0%;
-}
-.header_img {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    width: 100.42%;
-    height: 101px;
-}
-.about_link {
-    position: absolute;
-    background-image: none;
-    background-color: transparent;
-    left: 100%;
-    top: 0px;
-    transform: translate(-100%, 0%) translate3d(-212px, 41px, 0px);
-    -webkit-transform: translate(-100%, 0%) translate3d(-212px, 41px, 0px);
-    -moz-transform: translate(-100%, 0%) translate3d(-212px, 41px, 0px);
-    color: rgb(255, 255, 255);
-    font-weight: normal;
-    font-family: Roboto;
-}
-.contact_link {
-    position: absolute;
-    background-image: none;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    left: 100%;
-    top: 0px;
-    transform: translate(-100%, 0%) translate3d(-122px, 41px, 0px);
-    -webkit-transform: translate(-100%, 0%) translate3d(-122px, 41px, 0px);
-    -moz-transform: translate(-100%, 0%) translate3d(-122px, 41px, 0px);
-    font-weight: normal;
-    font-family: Roboto;
-}
-.help_link {
-    position: absolute;
-    background-image: none;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    left: 100%;
-    top: 0px;
-    transform: translate(-100%, 0%) translate3d(-68px, 41px, 0px);
-    -webkit-transform: translate(-100%, 0%) translate3d(-68px, 41px, 0px);
-    -moz-transform: translate(-100%, 0%) translate3d(-68px, 41px, 0px);
-    font-weight: normal;
-    font-family: Roboto;
-}
-.about_div {
-    position: absolute;
-    left: 0px;
-    top: 136px;
-    height: 162.667px;
-    width: 100%;
-}
-.hello_txt_header {
-    color: rgb(255, 255, 255);
-    position: absolute;
-    font-family: Georgia;
-    top: 36px;
-    left: 32px;
-}
-.full_about {
-    color: rgb(255, 255, 255);
-    position: absolute;
-    top: 88px;
-    left: 32px;
-    padding: 8px;
-    margin: 0px;
-    font-family: Montserrat;
-}
-a {
-    color: rgb(225, 232, 251);
-    text-decoration: none;
-    transition: color 0.5s ease 0s;
-    -webkit-transition: color 0.5s ease 0s;
-    -moz-transition: color 0.5s ease 0s;
-}
-a:hover {
-    color: rgb(255, 252, 160);
-}
-.contact_div {
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 128px;
-    top: 770px;
-}
-.help_div {
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    left: 0px;
-    top: 1400px;
-    padding: 0px;
-}
-.help_txt_header {
-    position: absolute;
-    font-size: 32px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    font-family: Georgia;
-    left: 32px;
-    top: 18px;
-}
-.help_txt_p {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    font-family: Montserrat;
-    padding: 8px;
-    left: 32px;
-    top: 58px;
-}
-.contact_txt_header {
-    position: absolute;
-    font-size: 32px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    font-family: Georgia;
-    margin: 0px;
-    padding: 0px;
-    left: 32px;
-    top: 31px;
-    white-space: nowrap;
-}
-.contact_txt_p {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    left: 32px;
-    top: 78px;
-    font-family: Montserrat;
-    padding: 8px;
-}
-.page {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 1500px;
-    background: -webkit-linear-gradient(top, rgb(3, 28, 51) 0%, rgb(0, 0, 16) 100%);
-    background: -moz-linear-gradient(top, rgb(3, 28, 51) 0%, rgb(0, 0, 16) 100%);
-    background: linear-gradient(to bottom, rgb(3, 28, 51) 0%, rgb(0, 0, 16) 100%);
-}
-.stan_logo {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    width: 103.1px;
-    height: 35.06px;
-    left: 31.96px;
-    top: 33px;
-}</style>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:regular|Montserrat:regular" rel="stylesheet" type="text/css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Stan Wick's Github site">
+    <meta name="keywords" content="Stan Wick, Stan, Wick, Github">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="emblem_favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome To Stan's Site</title>
 </head>
-
-<body class="htmlNoPages">
-  <div class="page" id="page"></div>
-  <div class="about_div" id="about">
-    <p class="full_about">I'm Stan. How are things going?<br class="gwd-br-ib69">You're welcome to my site</p>
-    <h1 class="hello_txt_header">Hello!</h1></div>
-  <div class="contact_div" id="contact">
-    <h1 class="contact_txt_header">Contact me at:</h1>
-    <p class="contact_txt_p">I could've sworn my contact info was in here somewhere...</p>
-  </div>
-  <div class="help_div" id="help">
-    <p class="help_txt_p">There's no help at this time.</p>
-    <h1 class="help_txt_header">SORRY,</h1></div>
-  <div class="top_div">
-    <span class="about_link"><a href="#about">ABOUT</a></span><span class="help_link"><a href="#help">HELP</a></span><span class="contact_link"><a href="#contact">CONTACT</a></span>
-	<span><a href="form_site/form">Page</a></span>
-    <img src="stan_logo.png" id="stan_logo" class="stan_logo" alt="stan_logo">
-  </div>
-
-
-</body></html>
+<body>
+    <header>
+        <img class="logo" src="stan_logo.png" alt="Stan Logo">
+        <div class="nav-links">
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#help">HELP</a>
+            <a href="./form_site/form">FORM</a>
+        </div>
+    </header>
+    <main>
+        <div id="about">
+            <h1>Hello!</h1>
+            <p>I'm Stan. How are things going?</p>
+            <p>You're welcome to my site</p>
+        </div>
+        <div id="contact">
+            <h1>Contact me at:</h1>
+            <p>I could've sworn my contact info was in here somewhere...</p>
+        </div>
+        <div id="help">
+            <h1>Sorry,</h1>
+            <p>There's no help at this time.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Stan</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+:root{
+    font-size: 1.172vw;
+    --mont-family: "Montserrat", sans-serif;
+}
+
+h1{
+    font-family: "Georgia";
+    font-size: 4rem;
+}
+
+p{
+    font-family: var(--mont-family);
+    font-size:1.5rem;
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(3, 28, 51), rgb(0, 0, 16));
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 1rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mont-family);
+    padding: 1rem 0;
+}
+
+.logo{
+    width: 10%;
+}
+
+.nav-links > *{
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+main{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+main > *{
+    height: 150vh;
+}
+
+footer{
+    color: antiquewhite;
+    text-align: center;
+}
