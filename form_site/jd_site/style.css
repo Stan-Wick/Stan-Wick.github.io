@@ -222,6 +222,15 @@ footer{
         font-size: 1.2rem;
     }
 
+    /* hero sizing */
+    .hero{
+        min-height: 800px;
+    }
+
+    .hero-2{
+        min-height: 800px;
+    }
+
 
     /* testimonial sizing  */
     .testimonials{
@@ -253,7 +262,7 @@ footer{
     .hero{
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.9) 80%), url(./images/1.webp) center/cover;
         min-height: 0;
-        height: 100vw;
+        height: 200vw;
         justify-content: center;
         align-items: end;
     }
@@ -261,7 +270,7 @@ footer{
     .hero-child{
         justify-content: end;
         align-items: center;
-        width: 150px;
+        /* width: 150px; */
         text-align: center;
         background-color: black;
         padding: 8px;
@@ -269,11 +278,19 @@ footer{
     }
 
     .hero-child > h1{
+        font-size: xx-large;
         padding: 4px 8px 4px 4px;
     }
 
     .hero-2{
         min-height: 0;
-        height: 100vw;
+        height: 200vw;
+        justify-content: center;
+        align-items: end;
+    }
+    .hero-2-child{
+        width: 100%;
+        align-items: center;
+        text-align: center;
     }
 }
