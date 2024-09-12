@@ -78,10 +78,10 @@ footer{
 }
 
 .hero{
-    /* background-image: url(/images/1.png);
+    /* background-image: url(/images/1.webp);
     background-size: cover;
     background-position: center; */
-    background: url(./images/1.png) center/cover;
+    background: url(./images/1.webp) center/cover;
     min-height: 32rem;
     margin: 0%;
     padding: 2rem;
@@ -102,7 +102,7 @@ footer{
     padding: 0.5rem;
     font-family: var(--font1), sans-serif;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: large;
 }
 
 .learn-link{
@@ -118,7 +118,7 @@ footer{
 }
 
 .hero-2{
-    background: url(./images/2.png) center/cover;
+    background: url(./images/2.webp) center/cover;
     min-height: 32rem;
     display: flex;
     margin: 0%;
@@ -170,15 +170,15 @@ footer{
 }
 
 .feature-card-1{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(./images/3.png) center/cover;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(./images/3.webp) center/cover;
 }
 
 .feature-card-2{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(./images/4.png) center/cover;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(./images/4.webp) center/cover;
 }
 
 .feature-card-3{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(./images/5.png) center/cover;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, black), url(./images/5.webp) center/cover;
 }
 
 .feature-text{
@@ -218,13 +218,19 @@ footer{
         font-size: 0.66rem;
     }
 
+    p{
+        font-size: 1.2rem;
+    }
+
+
     /* testimonial sizing  */
     .testimonials{
         font-size: 2vw;
+        padding: 4vw;
     }
 
     .testimonials h3{
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .testimonials h4,h5{
@@ -245,7 +251,7 @@ footer{
 /* square images for the hero section */
 @media screen and (max-width: 400px){
     .hero{
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.9) 80%), url(./images/1.png) center/cover;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.9) 80%), url(./images/1.webp) center/cover;
         min-height: 0;
         height: 100vw;
         justify-content: center;
