@@ -4,6 +4,7 @@
     --l-color: #FEF2AF;
     --font1: "Raleway";
     --doc-width: 1500px;
+    background-color: black;
   }
   
 
@@ -23,6 +24,14 @@ h1 {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+h2{
+    font-family: var(--font1);
+    font-weight: 900;
+    font-size: xx-large;
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
 }
 
 h3 {
@@ -61,7 +70,7 @@ body{
 
 footer{
     text-align: center;
-    background-color: var(--l-color);
+    background-color: var(--d-color);
     min-height: 4rem;
     padding: 2rem;
 }
@@ -75,6 +84,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    min-height: 80vh;
 }
 
 .hero{
@@ -135,6 +145,11 @@ footer{
     padding: 1rem;
 }
 
+.features-head{
+    text-align: center;
+    padding-top: 8rem;
+}
+
 /* wide behaviour */
 .features-container{
     display: flex;
@@ -156,8 +171,10 @@ footer{
 
 .features{
     display: flex;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.2) 0 0 2rem;
+    /* background-color: white; */
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0 0 2rem; */
+    background-color: var(--s-color);
+    box-shadow: var(--d-color) 0 0 2rem;
 }
 
 .features > * {
@@ -192,7 +209,7 @@ footer{
 .testimonials{
     display: flex;
     flex-direction: column;
-    background-color: var(--l-color);
+    background-color: var(--d-color);
     align-items: center;
     gap: 2rem;
     padding: 4rem;
@@ -206,6 +223,17 @@ footer{
     border: 0.25rem solid var(--s-color);
     max-width: 32rem;
 }
+
+
+/* .................FAQ PAGE................. */
+.faq-box{
+    text-align: center;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+/* .................FAQ PAGE................. */
 
 @media screen and (min-width: 4095px){
     :root{
@@ -260,9 +288,9 @@ footer{
 /* square images for the hero section */
 @media screen and (max-width: 400px){
     .hero{
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.9) 80%), url(./images/1.webp) center/cover;
+        background: linear-gradient(180deg, black , rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 50%, black), url(./images/1.webp) center/cover;
         min-height: 0;
-        height: 180vw;
+        height: 80vh;
         justify-content: center;
         align-items: start;
     }
@@ -287,12 +315,14 @@ footer{
     }
 
     .hero-2{
+        background: linear-gradient(180deg, black , rgba(255, 255, 255, 0) 50%, black), url(./images/2.webp) center/cover;
         min-height: 0;
-        height: 180vw;
+        height: 80vh;
         justify-content: center;
         align-items: end;
     }
     .hero-2-child{
+        background-color: unset;
         width: 100%;
         align-items: center;
         text-align: center;
